@@ -9,3 +9,10 @@ int fibonacci(int n) {
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
 }
+
+int main() {
+    int n;
+
+    std::cout << "Введите число n для вычисления n-го числа Фибоначчи: ";
+    std::cin >> n;
+}
