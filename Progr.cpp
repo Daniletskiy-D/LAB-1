@@ -12,7 +12,7 @@ int fibonacci(int n) {
 
 int main() {
     int n;
-
+    setlocale (LC_ALL, "RUS");
     std::cout << "Введите число n для вычисления n-го числа Фибоначчи: ";
     std::cin >> n;
     if (n < 0) {
@@ -21,5 +21,6 @@ int main() {
         int result = fibonacci(n);
         std::cout << "Число Фибоначчи для n = " << n << " равно " << result << std::endl;
     }
+
     return 0;
 }
