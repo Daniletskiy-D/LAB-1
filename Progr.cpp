@@ -21,4 +21,5 @@ int main() {
         int result = fibonacci(n);
         std::cout << "Число Фибоначчи для n = " << n << " равно " << result << std::endl;
     }
+    return 0;
 }
